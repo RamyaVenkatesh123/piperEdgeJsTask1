@@ -1,0 +1,28 @@
+.addtocart-button{
+    background-color: green;
+    width: 100%;
+}
+.table_head{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    background-color: black;
+}
+.discount-table {
+    border: 1px; 
+    width: 100%; 
+
+}
+
+.discount-table td {
+    border: 1px solid black; 
+    padding: 5px;
+    
+}
+#table-container{
+    width: 100%;
+    justify-items: center; 
+}
+.table_tr{
+    align-items: center;
+}

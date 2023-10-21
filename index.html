@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Mart</title>
+</head>
+<body>
+    <h1 align="center">Discount Table</h1>
+    <table border="1" id="table-container" align="center"></table>
+    <h1 align="center">Product Table</h1>
+    <table border="1" width="100%">
+        <thead>
+            <tr class="table_head">
+                <th>#</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Tags</th>
+                <th>Vendor</th>
+                <th>Cart</th>
+            </tr>
+        </thead>
+        <tbody id="product-output" align="center" >
+        </tbody>
+    </table>
+    <h1 align="center">Shopping Cart</h1>
+    <table border="1" width="100%" id="cart-table">
+        <thead>
+            <tr class="table_head">
+                <th>#</th>
+                <th>Product Name</th>
+                <th>Org Price</th>
+                <th>Discount Percentage</th>
+                <th>Discounted Price</th>
+                <th>Vendor</th>
+                <th>Remove Cart</th>
+            </tr>
+        </thead>
+        <tbody id="shopping" align="center" >
+        </tbody>
+    </table>
+    <h1>Total Amount: <span id="total-amount">0</span></h1>
+    </h1>
+    <script src="script.js"></script>
+</body>
+</html>
